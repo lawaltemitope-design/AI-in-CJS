@@ -295,10 +295,11 @@ const initialData = [
       {
         id: "c_det_prob",
         code: "Deterministic vs. probabilistic AI",
-        desc: "This code captures respondents' distinction between deterministic AI and probabilistic generative AI.",
+        desc: "This code captures respondents' distinction between deterministic AI and probabilistic generative AI, including discussion of binary entity-detection tools versus less predictable LLM-style systems.",
         quotes: [
           `"having some language to explain a more controlled and constrained application of AI where the results are more binary... versus something where you could ask it anything and it would give you any answer" (Interview 14)`,
           `"You either accept that [the probabilistic tool is]…going to be useful but imperfect, or you say well no, because it can't possibly be deterministic" (Interview 16)`,
+          `"[Secure Redact] deterministically detects and tracks a range of specific entities, people, faces, heads, licence plates, text in the seen as well as digital text…" (Interview 14)`,
         ],
       },
       {
@@ -406,7 +407,10 @@ const initialData = [
         desc: "Concerns about a fragmented and inefficient rollout of AI without sufficient guidance, and the rapid pace of technological change.",
         quotes: [
           `"one of our challenges here…is that the technology is moving at a breathtaking pace and it's really difficult for us to keep up" (Interview 5)`,
+          `"What I think is the reality is, is that there’ll be a lot of disparate pieces of work. There’ll be a lot of duplication. There won’t be a coordinated approach to it" (Interview 9)`,
+          `"[Because of the local 43 force model and slow national programs], we’ll get there but it will be in a bit of a messy fashion rather than in a clear well thought-out, well-planned way" (Interview 9)`,
           `"[Tools used by police forces are] so fragmented its bonkers" (Interview 11)`,
+          `"The parameters are changing all of the time. Where the data's located is changing all of the time and it's such a race between the big technology companies that I don't think they're always keeping everybody up to date" (Interview 21)`,
           `"I'm pretty worried about the scale and the pace of [AI deployment] happening too quickly without regulatory frameworks" (Interview 23)`,
         ],
       },
@@ -469,12 +473,14 @@ const initialData = [
       },
       {
         id: "c30",
-        code: "Over-reliance / de-skilling",
-        desc: "The dangers of overreliance on AI outputs which could lead to de-skilling and other severe consequences.",
+        code: "Over-reliance / de-skilling and atrophy of decision-making skills",
+        desc: "This code captures information about the dangers of overreliance on AI outputs which could lead to de-skilling, atrophy of decision-making skills, and reduced personal responsibility for judgments and actions.",
         quotes: [
           `"overreliance on this technology will cause atrophy in skills that would otherwise have been used" (Interview 3)`,
           `"ultimately what we don't want is further down the line to completely deskill a workforce" (Interview 2)`,
           `"We refer to [it] as deskilling, so that goes back to almost that business continuity thing" (Interview 18)`,
+          `"It would be too easy for [officers] now to say not my fault, the AI said, to make that decision, so I did what the AI said" (Interview 9)`,
+          `"A human responsibility has to exist. [As a supervisor], it’s my head on the block in the courtroom and I need to understand [the AI] in that level of detail" (Interview 10)`,
         ],
       },
       {
@@ -818,10 +824,14 @@ const initialData = [
       {
         id: "c46",
         code: "Enhanced Decision-Making",
-        desc: "This code captures information about AI's contribution to more informed, accurate, or timely decisions.",
+        desc: "This code captures information about AI's contribution to more informed, accurate, or timely decisions by professionals.",
         quotes: [
-          `"The power always remains with the human at the end of it, but it's our job to try to give them the tools and the access to the expertise that they need" (Interview 5)`,
-          `"[LATIS] provides the human with a way of structuring and prioritising… where do they focus their limited time" (Interview 23)`,
+          `"The power always remains with the human at the end of it, but it's our job to try to give them the tools and the access to the expertise that they need to be able to make those best decisions at the front line" (Interview 5)`,
+          `"[using Untrite THRIVE AI] was not about removing the human and taking the decision making away from the human, the human makes the decision and then we display the score" (Interview 6)`,
+          `"It [the legal policy tool] will help you decide or bring up the information or the legal policies around that to help you decide where it [the charge] would best sit in that list of different types of assaults" (Interview 18)`,
+          `"How can we pull that data into a place that makes it meaningful for an early decision maker to enhance the decision making quality at that first stage" (Interview 19)`,
+          `"[The Untrite real-time tool] goes on to then work with a human to draft an assessment… of the threat, harm, risk and vulnerability of that particular incident" (Interview 20)`,
+          `"[LATIS] provides the human with a way of structuring and prioritising… where do they focus their limited time in a way that would hopefully maximise the chances of them finding genuine links" (Interview 23)`,
         ],
       },
       {
@@ -1117,7 +1127,8 @@ const initialData = [
         code: "Cautious and Iterative Deployment",
         desc: "This code captures recommendations for a cautious, iterative deployment of AI, particularly when it impacts critical legal processes.",
         quotes: [
-          `"I would suggest that we hold a lot of data in policing so there are ways in which we could use retrospective data to be able to test something before making it go live" (Interview 9)`,
+          `"I would suggest that we hold a lot of data in policing so there are ways in which we could use retrospective data to be able to test something before making it go live, and that should be, I think the first consideration" (Interview 9)`,
+          `"I think a slow approach is probably what I’m asking for… perhaps we do [the testing] in a controlled way, so perhaps we say we could do it in a live environment but we’ll do it with CPS’s involvement and we’ll do an evaluation, and maybe we’ll do a randomised control trial for three months" (Interview 9)`,
         ],
       },
       {
