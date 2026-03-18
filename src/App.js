@@ -322,6 +322,16 @@ const initialData = [
         ],
       },
       {
+        id: "c_fear_efficiency",
+        code: "Fear of Displacement vs. Efficiency",
+        desc: "This code captures the anxiety that AI-driven efficiency gains may displace staff or reshape roles in ways that create uncertainty, resistance, or concern.",
+        quotes: [
+          `"Copilot could remove one if not both of those individuals [executive assistant/staff officer], freeing up more police officers to actually be on the front line" (Interview 6)`,
+          `"There is a massive fear that technology is going to replace people. Our own view is actually not to achieve that, it is to allow people to do what they're paid to do" (Interview 6)`,
+          `"I think age is a big factor and it's about old dogs and new tricks… There are judges who when everything was digitised on the bench said that's it for me, I'm not going to involve myself in that and so retired" (Interview 25)`,
+        ],
+      },
+      {
         id: "c_trust",
         code: "User Trust and Risk Awareness",
         desc: "This code captures respondents' perceptions of and experience with errors, biases, or unintended consequences.",
@@ -438,6 +448,26 @@ const initialData = [
         ],
       },
       {
+        id: "c_informal_ai",
+        code: "Informal AI use by officers",
+        desc: "This code captures references to ad hoc, unofficial, or self-directed AI use by staff, including reliance on personal experimentation or external tools outside formal organisational processes.",
+        quotes: [
+          `"there has been no chambers training for anybody in the use of AI. Anybody who is interested in it is doing their own research" (Interview 10)`,
+          `"We also know that people are…trying to use…ChatGPT but we don't know what they're using it for" (Interview 18)`,
+          `"If they've used any of those [LLM] tools, they will have used them offline from work because they wouldn't be able to access them in work" (Interview 24)`,
+        ],
+      },
+      {
+        id: "c_lack_accountability",
+        code: "Lack of individual accountability",
+        desc: "This code captures information about the risk that individuals defer responsibility to AI systems without sufficient understanding or ownership of the resulting outputs or decisions.",
+        quotes: [
+          `"It would be too easy for [officers] now to say not my fault, the AI said, to make that decision, so I did what the AI said" (Interview 9)`,
+          `"Fundamentally, a lawyer should not be relying on material that they have [no] thorough understanding of themselves" (Interview 10)`,
+          `"You can't just put something in and expect it to be right... you have to take responsibility for your own output" (Interview 21)`,
+        ],
+      },
+      {
         id: "c30",
         code: "Over-reliance / de-skilling",
         desc: "The dangers of overreliance on AI outputs which could lead to de-skilling and other severe consequences.",
@@ -445,6 +475,16 @@ const initialData = [
           `"overreliance on this technology will cause atrophy in skills that would otherwise have been used" (Interview 3)`,
           `"ultimately what we don't want is further down the line to completely deskill a workforce" (Interview 2)`,
           `"We refer to [it] as deskilling, so that goes back to almost that business continuity thing" (Interview 18)`,
+        ],
+      },
+      {
+        id: "c_public_trust",
+        code: "Public Trust",
+        desc: "This code captures references to the effect of AI deployment on confidence, legitimacy, and trust among the public and justice-system stakeholders.",
+        quotes: [
+          `"at the moment I don't think the public are agitated or overly concerned" (Interview 5)`,
+          `"It's really important that we are open and transparent with the use of AI tools… making sure that… everybody within the criminal justice system is aware of the use of AI" (Interview 22)`,
+          `"[Referring to the Horizon Post-Office scandal] We tend to put the blame on the software, but often we forget that there was a disclosure disaster there with the state-owned company knowing about the problems" (Interview 25)`,
         ],
       },
       {
@@ -486,6 +526,177 @@ const initialData = [
           `"I've never been able to find out of these commercial vendors what their LLMs have been trained on. Very, very opaque" (Interview 20)`,
         ],
       },
+      {
+        id: "c_change_resistance",
+        code: "Change Management and Adoption Resistance",
+        desc: "This code captures organisational or individual resistance to adopting AI, including cultural barriers, scepticism, or lack of stakeholder buy-in.",
+        quotes: [
+          `"One of the biggest ones to start with was getting the teams to actually use it" (Interview 14)`,
+          `"There are definitely some engrained ways of working where specific tasks have to be passed to very specific teams to complete them" (Interview 14)`,
+          `"We have come up against a few who have said absolutely I'm not interested, I don't want to do that, can I opt out" (Interview 18)`,
+        ],
+      },
+      {
+        id: "c_procurement_challenges",
+        code: "Procurement Challenges",
+        desc: "This code captures challenges arising from duplicative procurement of similar AI tools across forces, as well as rigidity, red tape, and fragmented purchasing processes.",
+        quotes: [
+          `"policing buys their own things and doesn’t tell anyone... this ridiculous situation where 43 forces all procure their own uniform and their own cars and their own technology" (Interview 3)`,
+          `"public sector procurement is so rigid and so tight that it does take a lot of flexibility out" (Interview 6)`,
+          `"Everything else right now is pretty much individual forces... procuring a tool under the guidance of the playbook" (Interview 19)`,
+        ],
+      },
+      {
+        id: "c_commercial_partner",
+        code: "Commercial Partner Challenges",
+        desc: "This code captures challenges of being contractually bound to suppliers, including lock-in, long contract terms, and limited flexibility when pilots or proof-of-concept work does not deliver value.",
+        quotes: [
+          `"I can’t at the end of my trial say that didn’t work, I’m not going to use that now because I’m now locked into a contract" (Interview 6)`,
+          `"Some will be commercially bound because they’re already invested in doing some other changes in their organisation and now they’re going to do this bit" (Interview 8)`,
+        ],
+      },
+      {
+        id: "c_vendor_snake_oil",
+        code: "Vendor 'snake oil' solutions",
+        desc: "This code captures references to AI products or services offered by vendors that are perceived as overhyped, misleading, or failing to deliver promised functionality.",
+        quotes: [
+          `"it’s telling the difference between things that are really genuinely innovative and useful to policing and things that are a rebranding of ChatGPT with some fancy stuff over the top" (Interview 7)`,
+          `"it’s very difficult to be a clever, a smart buyer, because every vendor is coming to you and saying that their tools are AI enabled" (Interview 13)`,
+          `"I've been sold or tried to be sold so many things that quite clearly aren't AI but because it’s just an easy, lazy term" (Interview 20)`,
+        ],
+      },
+      {
+        id: "c_supplier_timeline",
+        code: "Supplier-driven timeline",
+        desc: "This code captures references to project schedules or implementation timings being driven primarily by suppliers rather than internal readiness or planning.",
+        quotes: [
+          `"it’s in their interest [suppliers’] to push hard and fast on it and sometimes it’s the only way forces can get delivery of technology is to work to a supplier’s timeline" (Interview 9)`,
+          `"At the moment it is very much policing being done…by technology companies than the other way around" (Interview 19)`,
+        ],
+      },
+      {
+        id: "c_historical_structures",
+        code: "Historical structural issues",
+        desc: "This code captures longstanding organisational, institutional, or systemic structures that constrain AI adoption, interoperability, or effective coordination.",
+        quotes: [
+          `"This is a fundamental consequence of the 43 force model which is a hangover from the fact that this model was invented before computers" (Interview 3)`,
+          `"AI lead[s] [do] not know about the AI tool that is in the force, because it was not brought in under the technology or digital banner" (Interview 11)`,
+          `"Everyone likes to have their own kingdom in policing" (Interview 12)`,
+        ],
+      },
+      {
+        id: "c_eval_cost",
+        code: "Evaluation Cost/Impact",
+        desc: "This code captures the high financial and operational cost of evaluating AI tools before deployment, as well as the possibility that evaluation findings may slow, limit, or halt rollout.",
+        quotes: [
+          `"[The academic evaluation] was quite expensive. My entire budget for the programme, the academic study probably took nearly thirty per cent of that budget" (Interview 6)`,
+          `"right now having just seen the draft academic report, it may actually prohibit me moving into a phase three" (Interview 6)`,
+          `"the funding pot... might not have enough funding for evaluation" (Interview 8)`,
+        ],
+      },
+      {
+        id: "c_cost_access",
+        code: "Cost and accessibility",
+        desc: "This code captures financial and practical factors affecting the adoption, deployment, and accessibility of AI tools.",
+        quotes: [
+          `"The prohibitive cost of technology in AI [makes a free proof of concept] really attractive" (Interview 9)`,
+          `"with AI there’s some challenges around affordability [post-proof-of-concept]" (Interview 9)`,
+          `"This stuff is not free and therefore that is a barrier to adoption at a[n] organisational level" (Interview 15)`,
+        ],
+      },
+      {
+        id: "c_resp_diffusion",
+        code: "Responsibility Diffusion",
+        desc: "This code captures references to the spreading or unclear allocation of accountability when AI systems are used in decision-making.",
+        quotes: [
+          `"If you’re expecting police officers to be computer scientists then your system will fail" (Interview 17)`,
+          `"the [burden of] responsibility needs to be spread with mandatory quality assurance systems upstream and ongoing monitoring and evaluations downstream" (Interview 17)`,
+        ],
+      },
+      {
+        id: "c_talent_retention",
+        code: "Talent retention",
+        desc: "This code captures challenges related to retaining skilled personnel needed to build, govern, and operate AI systems in the public sector.",
+        quotes: [
+          `"we are haemorrhaging the really talented people because they’re going off to the organisations like your Googles and your Amazons" (Interview 5)`,
+          `"once you [upskill officers]…,they’ll leave the public sector because they don’t pay enough" (Interview 9)`,
+        ],
+      },
+      {
+        id: "c_test_data_creation",
+        code: "Test-data creation",
+        desc: "This code captures references to the generation, preparation, or curation of datasets used to train, validate, or evaluate AI systems.",
+        quotes: [
+          `"test data is a challenge for us. We have huge volumes of data but of course it’s all live real data" (Interview 5)`,
+          `"real scenarios, real data and some synthetic data" (Interview 19)`,
+        ],
+      },
+      {
+        id: "c_data_limits_predictive",
+        code: "Data limitations for probabilistic/predictive AI",
+        desc: "This code captures constraints or shortcomings in the datasets used to develop, train, or operate probabilistic or predictive AI systems.",
+        quotes: [
+          `"there’s an issue for any probabilistic use which relies on only police data because police data by its nature is only that which is connected to the criminal justice processes" (Interview 7)`,
+        ],
+      },
+      {
+        id: "c_data_time_pressure",
+        code: "Data training and time pressure",
+        desc: "This code captures information about the volume of data required to make AI systems useful and the time pressure involved in preparing that data.",
+        quotes: [
+          `"We started off with six weeks’ worth of data. It clearly was useless... and I think we ended up putting something close to four- or five-years’ worth of data through [the AI system]" (Interview 6)`,
+          `"if you want to automate a document... you probably need a hundred examples and then someone’s got to go through and label everything up and that takes time" (Interview 15)`,
+        ],
+      },
+      {
+        id: "c_time_delay",
+        code: "Time delay",
+        desc: "This code captures the substantial time difference between implementing or testing AI in the private sector versus the public sector.",
+        quotes: [
+          `"Something I would have probably done in the private sector with a couple of conversations maybe within a week I could get going here in the public service will take me three to six months" (Interview 6)`,
+        ],
+      },
+      {
+        id: "c_speed_vs_eval",
+        code: "Speed of deployment vs. planning and evaluation",
+        desc: "This code captures concerns that the push for AI adoption can bypass necessary planning, governance, and evaluation phases.",
+        quotes: [
+          `"the speed at which that [the RVR AI trial] stood up was really quick. So, the time to plan things and to look to get evaluations it wasn’t there" (Interview 9)`,
+          `"There is the government direction to use AI and there's a bit of a panic with we have to use it" (Interview 21)`,
+        ],
+      },
+      {
+        id: "c_supplier_dilemma",
+        code: "Supplier’s dilemma regarding systemic change vs. narrow solutions",
+        desc: "This code captures the strategic decision by technology providers to bypass broad systemic resistance by pursuing narrow, point-solution use cases instead.",
+        quotes: [
+          `"there are cases where we think it would be harder to get adoption or buy in... are we going to wait for identifying use cases where we can do really, really narrow point solutions" (Interview 16)`,
+        ],
+      },
+      {
+        id: "c_dehumanisation",
+        code: "Dehumanisation and datafication",
+        desc: "This code captures the risk that data-driven AI systems reduce people to data points or statistical classes, undermining dignity and individualised decision-making.",
+        quotes: [
+          `"the police start treating people as data rather than people...a dehumanisation risk is a risk to the rule of law" (Interview 17)`,
+        ],
+      },
+      {
+        id: "c_cognitive_burden",
+        code: "Cognitive burden redistribution",
+        desc: "This code captures the risk that automating routine tasks concentrates staff effort on more complex work, potentially increasing fatigue and cognitive strain.",
+        quotes: [
+          `"that could go to I think a cognitive burnout where they're doing the big stuff and all the little stuff that they used to be able to span out the day" (Interview 18)`,
+        ],
+      },
+      {
+        id: "c_solutionising",
+        code: "Solutionising culture in policing",
+        desc: "This code captures an organisational tendency to adopt solutions before fully understanding the problem, risking premature or poorly targeted AI deployment.",
+        quotes: [
+          `"We're very good at solutionising… Anyone that is successful at selling into policing will know sell the solution first and then let them sort out what the problem was after you've sold it" (Interview 20)`,
+        ],
+      },
     ],
   },
   {
@@ -511,6 +722,42 @@ const initialData = [
         quotes: [
           `"If we don't illuminate [transcription accuracy concerns] and we just assume the transcription is accurate, then potentially everything else could become biased that follows." (Interview 20)`,
           `"That would be like AI training AI and not having a bedrock of data sufficiently wide enough to train the first tool." (Interview 24)`,
+        ],
+      },
+      {
+        id: "c_data_flow",
+        code: "Data Flow Between Systems",
+        desc: "This code captures information about how data or outputs from one AI system are transferred, integrated, or reused in other systems.",
+        quotes: [
+          `"[The AI post-call analysis tool produces] two summaries. One is intended… for a human to read, and one is optimised for further technological processing" (Interview 20)`,
+          `"[The Untrite real-time tool] automatically searches all of the other police databases that we have and brings all the information back for the human to review" (Interview 20)`,
+        ],
+      },
+      {
+        id: "c_chain_operational",
+        code: "Operational Impacts",
+        desc: "This code captures information about how chaining affects workflows, efficiency, or decision-making within policing.",
+        quotes: [
+          `"I can imagine some kind of agentic forensic tool that goes off and runs a bunch of tools and takes the output of those and feeds those through into other bits and makes decisions on that" (Interview 16)`,
+          `"if you have Teams Premium or Copilot Premium that would then just summarise and generate a summary at the end of it. Those are multiple different processes that go into it" (Interview 19)`,
+        ],
+      },
+      {
+        id: "c_chain_governance",
+        code: "Governance and Oversight Challenges",
+        desc: "This code captures information about difficulties in monitoring, regulating, or assigning accountability across interconnected AI systems.",
+        quotes: [
+          `"[Chaining can occur] if we’re thinking about disclosure as a safeguard to police AI but then disclosure itself is being conducted by AI" (Interview 17)`,
+          `"I'm not aware of anything at the moment, but I think we do need to be really aware of that because one AI tool could be used on a particular document" (Interview 22)`,
+        ],
+      },
+      {
+        id: "c_chain_mitigation",
+        code: "Mitigation Strategies",
+        desc: "This code captures information about measures designed to manage risks, prevent errors, or control unintended consequences in chained AI processes.",
+        quotes: [
+          `"[Different LLMs are used] for different purposes… for each of those stages of processing we have very, very carefully and forensically looked at what's the accuracy level required" (Interview 20)`,
+          `"If we don't illuminate [transcription accuracy concerns] and we just assume the transcription is accurate, then potentially everything else could become biased that follows" (Interview 20)`,
         ],
       },
     ],
@@ -580,8 +827,11 @@ const initialData = [
       {
         id: "c47",
         code: "Reliance on AI in Decision-Making",
-        desc: "This code captures information about the extent to which professionals depend on AI outputs when making operational or strategic decisions.",
-        quotes: [],
+        desc: "This code captures information about the extent to which professionals depend on AI outputs when making operational or strategic decisions. It includes examples of deference to AI recommendations, incorporation of probabilistic information into judgment, and situations where human discretion is influenced or overridden by AI-generated guidance.",
+        quotes: [
+          `"Where opinions are subjective and they're on borderline quality of marks… I think that AI could play a part in leading to a swifter resolution of those kind of borderline quality things" (Interview 24)`,
+          `"It might be able to put ten lots of call data for ten different phones in and say do they call any of these numbers and it would give me the answer immediately" (Interview 25)`,
+        ],
       },
       {
         id: "c48",
@@ -675,7 +925,10 @@ const initialData = [
         id: "c57",
         code: "Vendor and Stakeholder Management",
         desc: "This code captures interactions, responsibilities, or collaborations with technology providers, funders, or other external stakeholders in AI projects.",
-        quotes: [],
+        quotes: [
+          `"We're looking to build and we're looking to buy AI… [When buying] that takes a bit of work behind the scenes to work out actually how did they build them" (Interview 21)`,
+          `"The fundamental primary requirement would be around data protection… data security and data sovereignty" (Interview 24)`,
+        ],
       },
       {
         id: "c58",
@@ -766,7 +1019,10 @@ const initialData = [
         id: "c67",
         code: "Pilot and Experimental Projects",
         desc: "This code captures information about early-stage or trial initiatives supported by specific funding or innovation programmes.",
-        quotes: [],
+        quotes: [
+          `"That engagement [between police forces, NPCC, and CPS] takes place on effectively three levels… early engagement when forces are really just thinking about an idea and potentially they have like a proof of concept" (Interview 22)`,
+          `"[We] first of all [tested] in a lab... [We are now] repeating the test with Hertfordshire… then going to expand into Cambridgeshire and Bedfordshire" (Interview 20)`,
+        ],
       },
       {
         id: "c68",
