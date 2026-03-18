@@ -1246,16 +1246,12 @@ export default function App() {
     return () => unsubscribe();
   }, []);
 
-  // ── FIX: only seed Firestore if the document does not already exist ──
+  // Force-sync the local framework into Firestore so the hosted data
+  // matches the latest in-code dataset on first load after login.
   useEffect(() => {
     if (!user) return;
     const docRef = doc(db, "workbench", "mainData");
-
-    getDoc(docRef).then((snap) => {
-      if (!snap.exists() || !snap.data().themes) {
-        setDoc(docRef, { themes: safeData });
-      }
-    });
+    setDoc(docRef, { themes: safeData });
 
     const unsubscribe = onSnapshot(docRef, (docSnap) => {
       if (docSnap.exists() && docSnap.data().themes) {
