@@ -40,7 +40,7 @@ const initialData = [
       {
         id: "c1",
         code: "Automation and demand reduction",
-        desc: "This code concerns the use of AI to automate routine or administrative tasks in policing, with the aim of reducing workforce demand and enabling officers to focus on core operational duties.",
+        desc: "This code captures the use of AI to automate routine or administrative tasks in policing, with the aim of reducing workforce demand and enabling officers to focus on core operational duties. It includes tools for transcription, redaction, drafting, and other time-consuming administrative functions.",
         quotes: [
           `"We have a whole list of all the different projects…but most of them in respect of policing focus at the moment is around automation and where we can reduce demand on our workforce so that they can go out and do their policing roles as opposed to some of the administrative tasks some of our systems have developed over time and made more onerous". (Interview 8)`,
           `"We've got some projects on […] the use of AI to speed up the document redaction process, whether it's text or audiovisual files, in the evidential, not just in the investigative process but also when it comes to Freedom of Information Act requests for body-worn video footage and so on because that takes an inordinate amount of officer time using current technology" (Interview 3)`,
@@ -241,8 +241,8 @@ const initialData = [
         code: "Initial Excitement",
         desc: "This code captures references to early reactions to AI adoption, reflecting both enthusiasm for its potential benefits.",
         quotes: [
-          `"We're quite excited about the opportunities [AI presents] but we can't really understand it at the moment" (Interview 5)`,
-          `"When I hear the word AI… I probably think of new opportunities" (Interview 22)`,
+          `"We're quite excited about the opportunities [AI presents] but we can't really understand it at the moment in time and therefore are cautious around the risks because anything we don't understand invariably gives us options to be bitten or to be caught out or to effectively do something wrong, which of course we don't want" (Interview 5)`,
+          `"When I hear the word AI… I probably think of new opportunities… There is a lot of opportunities that are possible with AI, but they don't… always come with their risks and mitigations… I think within the professions of the criminal justice system… we're [at the] beginning of our journey and realising what the benefits could potentially be" (Interview 22)`,
         ],
       },
       {
@@ -250,10 +250,10 @@ const initialData = [
         code: "Scepticism and fear",
         desc: "This code captures references to doubts, apprehensions, or negative emotions regarding the use of AI in policing and the criminal justice system.",
         quotes: [
-          `"AI is a term that scares some people in law enforcement" (Interview 1)`,
+          `"AI is a term that scares some people in law enforcement…every time I mentioned AI in my department…people's kind of whoa, hang on, just because they've been brought up on movies that feature AI like Skynet in Terminator and stuff like that where it all goes haywire." (Interview 1)`,
           `"Policing is really quite sceptical. We do like our technology, I think it's fair to say, we do like the potential of it, but we also have a very healthy curiosity and caution around exactly how does it work and what are the risks and what are the benefits" (Interview 5)`,
-          `"people do find [AI] a bit scary partly because they find tech scary generally" (Interview 15)`,
-          `"I'm concerned that summarisation tools will be used for drafting of court documents and I have concerns around that in terms of accountability" (Interview 17)`,
+          `"people do find [AI] a bit scary partly because they find tech scary generally, partly because of all the Terminator style end of days kind of stuff that people talk about in the press" (Interview 15)`,
+          `"I'm concerned that summarisation tools will be used for drafting of court documents and I have concerns around that in terms of accountability and understanding who's written what... and it devaluing what a statement of truth means" (Interview 17)`,
           `"I think [AI adoption] should be approached in a positively cautious way" (Interview 23)`,
           `"It's about speeding everything up and I find that in almost every regard, especially in serious cases where there's a lot of material, there's no substitute for putting in the hard work and shortcuts are a worry to me" (Interview 25)`,
           `“I'm not one of these Skynet people who says it will take over the world like Terminator... but I do believe that we've got to still have that cautious…that you've got to be aware that this may not exactly be true…If I look on somewhere like Facebook I cannot trust any of the images that comes up on Facebook because there's so many [AI-generated ones]... I don't even look at them anymore because I don't even believe them because you don't know what to believe” (Interview 18)`,
@@ -267,7 +267,7 @@ const initialData = [
         quotes: [
           `"I think if you look back to all the advances in policing, so fingerprints and DNA and CCTV and all those kind of things, I'm sure there was concerns around the introduction of those as well." (Interview 1)`,
           `"It will be like the mobile phone journey which started like this and now we're into this" (Interview 24)`,
-          `"Before that, we're probably going back to DNA in the early nineties to look at what was brand new" (Interview 25)`,
+          `"Before that, we're probably going back to DNA in the early nineties to look at what was brand new, and it seems to me that the use of AI maybe have that sort of character that once it lands fully you're going to get a huge raft of litigation and appeals before the Court of Appeal" (Interview 25)`,
           `“I was on a course the other day that told me what the name for recurring challenges, patterns of it was...an AI winter, so the first one was 1974 to '80 and then adoption, or cautionary the second one was '87 to '93 and it was just lack of funding and examples from historical interest and they think this is like a peak at the minute and there practices that inform current will be another winter is coming” (Interview 18)`,
         ],
       },
@@ -276,11 +276,11 @@ const initialData = [
         code: "Hands-on Experience",
         desc: "This code captures respondents' direct interactions with AI tools, including frequency, duration, and operational contexts.",
         quotes: [
-          `"I am still trying to get my head around what [AI] actually means, what it's potential are and what the risks are. I have, unashamedly…started to play with it." (Interview 5)`,
-          `"I use [Copilot] quite a lot to give me a framework if I'm writing a strategy." (Interview 6)`,
-          `"I use Copilot daily and I use it to write terms of references." (Interview 21)`,
-          `"The AI that I use in my current role is Copilot, so we'll use Copilot for meeting minutes" (Interview 22)`,
-          `"I had a really good, interesting case recently which I chose to test the Adobe AI Reader on" (Interview 25)`,
+          `"I am still trying to get my head around what [AI] actually means, what it's potential are and what the risks are. I have, unashamedly…started to play with it. It's now become my default search engine so those things have developed but I don't think I'm a heavy user of it" (Interview 5)`,
+          `"I use [Copilot] quite a lot to give me a framework if I'm writing a strategy. It's very, very good at that…one of the things I found it really useful for is it searches all my files so it will look at everything, at all the information I've got and help me build a much more accurate template…I would use it in a sort of developmental work" (Interview 6)`,
+          `"I use Copilot daily and I use it to write terms of references. I use it to sometimes simplify some of the content I'm writing… I always check it and I always change it a hundred per cent of the time, not because I'm setting out to do a hundred per cent of changes, just because I find that a hundred per cent of the time it doesn't quite get it right" (Interview 21)`,
+          `"The AI that I use in my current role is Copilot, so we'll use Copilot for meeting minutes… There are times when the transcript… doesn't capture the words that were actually said. It will be completely different. Somebody's called Steve and it will come up with Sharon… Similarly… sometimes the summary will not be accurate" (Interview 22)`,
+          `"I had a really good, interesting case recently which I chose to test the Adobe AI Reader on… It didn't pick up on the negative which as a lawyer you are looking at to try and identify the inconsistencies in the evidence… it's not just about what is there but it's about what isn't there that we have to get better at" (Interview 25)`,
           `“perhaps five per cent or less…knew anything about AI, and they flagged concerns around their use and application of it, but there was an acceptance that some of them are probably already using AI in some shape or form in their roles but just don’t realise it in respect of what they’re doing.” (Interview 8)`,
           `“I’ve used a large language model system to try and create a financial model from an excel spreadsheet and what it required was a lot of back and forth from me learning how the system was working and what it was capable of doing. It was over promising and under delivering until I realised that I would have to provide data rather than creating a hypothetical system that could be used” (Interview 10)`,
           `“Whenever I write a letter, I sometimes throw it through Copilot to say can you just redraft or make it more empathetic or take the harshness out of it, and it's been good… I did a paper for our AI steering group around Copilot and casework... and whilst I had to go through and tweak it because obviously it's for me and I wouldn't say it in that language...it definitely gets me…sometimes the hardest bit is getting started” (Interview 18)`,
@@ -404,10 +404,10 @@ const initialData = [
         code: "Human in the Loop",
         desc: "This code captures information about the role of human oversight, intervention, and judgment in AI-supported decision-making processes.",
         quotes: [
-          `"whilst we're saying humans in the loop are making the decisions in respect of what the outputs it gives you you've got to still do checks and balances in respect of it" (Interview 8)`,
-          `"There needs to be a charging decision made by a human." (Interview 10)`,
+          `"whilst we're saying humans in the loop are making the decisions in respect of what the outputs it gives you you've got to still do checks and balances in respect of it and don't always think it's right" (Interview 8)`,
+          `"There needs to be a charging decision made by a human. I would be extremely concerned if a computer-based system was saying there's sufficient evidence here to ground a prosecution…There still needs to be human oversight, even if material has been acquired or analysed using AI" (Interview 10)`,
           `"A developer said to me if you're not careful your human over the loop quite easily becomes your human scapegoat for poorly designed systems" (Interview 17)`,
-          `"I want us to ban the term 'human in the loop' 'cause I think it's entirely meaningless" (Interview 19)`,
+          `"I want us to ban the term 'human in the loop' 'cause I think it's entirely meaningless and becoming more meaningless as we move forward…I think it's an incredibly lazy approach to technically assuring these products are good enough and managing them through the model lifecycle... essentially it's going to become 'human on the loop' or 'human above the loop' rather than human in the loop" (Interview 19)`,
           `"We did a bit of testing…one of the things that we did find is that the human in the loop wasn't necessarily picking up on some of these key embellishments and hallucinations" (Interview 22)`,
           `“We use [the AI tool] very much as a guide rather than an actual includes references to practices dead cert. We always try and parallel source stuff whenever we where human operators review, can in intel” (Interview 1)`,
           `“It’s the human in the loop really to ensure that anything that’s pulled across it doesn’t really work, or it hasn’t really hit the mark... it will be down to the officer’s judgement really. We’re not asking this to take away the officer’s ability to make decisions, it’s just a clerical tool really. We still want the officer to make those final judgments and decisions” (Interview 2)`,
@@ -457,7 +457,7 @@ const initialData = [
       {
         id: "c24",
         code: "Technical Limitations",
-        desc: "Challenges related to AI system performance, accuracy, reliability, or integration with existing infrastructure.",
+        desc: "This code captures challenges related to AI system performance, accuracy, reliability, or integration with existing infrastructure. It includes limitations in speech recognition, interoperability with force systems, and technical constraints that affect deployment.",
         quotes: [
           `"The first and biggest challenge at the moment is that the [COPPA] AI library as we call it is static, so you have to manually update it" (Interview 12)`,
           `"Actually the automatic speech recognition technology within OpenAI, et cetera just isn't sophisticated enough to deal with the noisy environments that they're being deployed in" (Interview 19)`,
@@ -470,7 +470,7 @@ const initialData = [
       {
         id: "c25",
         code: "Pace of development and fragmented rollout",
-        desc: "Concerns about a fragmented and inefficient rollout of AI without sufficient guidance, and the rapid pace of technological change.",
+        desc: "This code captures concerns about a fragmented and inefficient rollout of AI without sufficient guidance, and the rapid pace of technological change outpacing governance and evaluation capacity.",
         quotes: [
           `"one of our challenges here…is that the technology is moving at a breathtaking pace and it's really difficult for us to keep up" (Interview 5)`,
           `"What I think is the reality is, is that there’ll be a lot of disparate pieces of work. There’ll be a lot of duplication. There won’t be a coordinated approach to it" (Interview 9)`,
@@ -491,7 +491,7 @@ const initialData = [
       {
         id: "c26",
         code: "Unused Materials and Disclosure Issues",
-        desc: "Challenges related to managing, retaining, and disclosing materials that are not actively used in investigations or prosecutions.",
+        desc: "This code captures challenges related to managing, retaining, and disclosing materials that are not actively used in investigations or prosecutions, including AI-generated transcripts and summaries that create additional disclosure obligations.",
         quotes: [
           `"What using AI has done is generate more unused material, so you've got the audio, the conversation is being recorded, that's unused material." (Interview 2)`,
           `"There is a legal obligation on CPS to review both [the summary and the full transcription] and then there is a legal obligation on CPS to disclose both to the defence potentially" (Interview 21)`,
@@ -501,7 +501,7 @@ const initialData = [
       {
         id: "c27",
         code: "Evidential chain risks and legalities",
-        desc: "Potential risks, challenges, or legal considerations associated with the handling, transfer, and use of evidence processed or generated by AI systems.",
+        desc: "This code captures potential risks, challenges, or legal considerations associated with the handling, transfer, and use of evidence processed or generated by AI systems, including admissibility, disclosure obligations, and the integrity of the evidential chain.",
         quotes: [
           `"I would have said don't use AI and anything that's in the evidential chain" (Interview 9)`,
           `"[On the RVR AI trial], we had to pause our trial and engage with CPS…[The lesson learned was that] we should have engaged with CPS sooner" (Interview 9)`,
@@ -513,7 +513,7 @@ const initialData = [
       {
         id: "c28",
         code: "Data Quality and Availability",
-        desc: "Difficulties arising from incomplete, biased, or inaccessible datasets necessary for AI training and operation.",
+        desc: "This code captures difficulties arising from incomplete, biased, or inaccessible datasets necessary for AI training and operation, including the risk that policing data reflects existing biases.",
         quotes: [
           `"the challenge sometimes is around our availability of data and what we will share and what we won't share and also if we're using our datasets the bias that's already in there around our policing dataset" (Interview 8)`,
           `"What is also hugely problematic…is data quality" (Interview 7)`,
@@ -525,7 +525,7 @@ const initialData = [
       {
         id: "c29",
         code: "Skills gap and understanding deficiencies",
-        desc: "Constraints related to staffing, skills, training, expertise, or institutional readiness to implement AI effectively.",
+        desc: "This code captures constraints related to staffing, skills, training, expertise, or institutional readiness to implement AI effectively, including gaps in technical knowledge among officers and senior leadership.",
         quotes: [
           `"The biggest thing overall from an AI space, but this is broader in the digital element anyway, is skills and the lack of knowledge" (Interview 8)`,
           `"The vast majority of senior police officers have very little technical knowledge when it comes to technology or AI" (Interview 5)`,
@@ -620,7 +620,7 @@ const initialData = [
       {
         id: "c31",
         code: "Legal and regulatory barriers",
-        desc: "Challenges associated with compliance, compatibility, data access/retention, accountability, and navigating existing laws.",
+        desc: "This code captures challenges associated with compliance, compatibility, data access and retention, accountability, and navigating existing laws when deploying AI in policing and the criminal justice system.",
         quotes: [
           `"There's definitely some challenges in terms of the way that artificial intelligence as a technology works and its compatibility with UK law" (Interview 11)`,
           `"The ultimate issue rule… an expert is not permitted to answer the ultimate issue in the case because that's for the jury to decide" (Interview 25)`,
@@ -633,7 +633,7 @@ const initialData = [
       {
         id: "c32",
         code: "Ethical and social concerns",
-        desc: "Apprehensions regarding fairness, bias, transparency, and privacy.",
+        desc: "This code captures apprehensions regarding fairness, bias, transparency, and privacy associated with the use of AI in policing and the criminal justice system, including concerns about discriminatory outcomes and erosion of civil liberties.",
         quotes: [
           `"in respect of the data that we've got on our systems…individuals …need to understand the bias that could be employed within our environment" (Interview 8)`,
           `"We all need to remember why we are there and we're doing all of this not to save ourselves time and to be efficient but to get justice for members of the public" (Interview 21)`,
@@ -647,7 +647,7 @@ const initialData = [
       {
         id: "c33",
         code: "Accuracy and reliability",
-        desc: "The correctness, precision, and dependability of AI outputs or predictions.",
+        desc: "This code captures the correctness, precision, and dependability of AI outputs or predictions, including issues of hallucination, inconsistency, and the risk of acting on inaccurate AI-generated information.",
         quotes: [
           `"there's still a lot of work to do…particularly around levels of model accuracy that constitute good enough within a policing context" (Interview 3)`,
           `"We're using Copilot within the Home Office and…it shows a lot of the problems around irresponsible use, because it's often hallucinating rubbish" (Interview 3)`,
@@ -665,7 +665,7 @@ const initialData = [
       {
         id: "c34",
         code: "'Black box' problem",
-        desc: "The opacity of AI systems, where the internal logic, decision-making processes, or predictive mechanisms are not easily understandable or interpretable by users.",
+        desc: "This code captures the opacity of AI systems, where the internal logic, decision-making processes, or predictive mechanisms are not easily understandable or interpretable by users, raising concerns about accountability and trust.",
         quotes: [
           `"one of the challenges [is] that as [AI] becomes more complicated, we understand it less" (Interview 5)`,
           `"There's a risk around black box, so things being shown to forces that look very, very attractive but where you can't actually see what the code is" (Interview 7)`,
@@ -757,7 +757,7 @@ const initialData = [
         quotes: [
           `"The prohibitive cost of technology in AI [makes a free proof of concept] really attractive" (Interview 9)`,
           `"with AI there’s some challenges around affordability [post-proof-of-concept]" (Interview 9)`,
-          `"This stuff is not free and therefore that is a barrier to adoption at a[n] organisational level" (Interview 15)`,
+          `"This stuff is not free and therefore that is a barrier to adoption at a[n] organisational level for all organisations" (Interview 15)`,
           `“Collaboraite [needs special] licences to have it, so its like financial and practical factors additional functionality that you’ve got to pay for…but with the affecting the adoption, public purse the way it is I think the smaller forces may struggle to deployment, and use of AI systems. buy the specialist software” (Interview 1)`,
           `“we want to know where the best place to process our data and constraints, procurement we’re worried about the costs because it costs money to move expenses, resource availability, data, process it, store it, share it. Everything you do with data costs affordability, and the ease or money in reality and the use of an AI is still very much unknown to difficulty for organisations or us. Part of the process is to understand on a very small scale what personnel to access and utilise AI the compute cost would actually be, what’s the data, do we tools effectively. achieve the outcomes we want, what’s the cost of it, what’s the risks of doing so” (Interview 5)`,
           `“[AI systems] cost money” (Interview 10)`,
@@ -778,7 +778,7 @@ const initialData = [
         desc: "This code captures challenges related to retaining skilled personnel needed to build, govern, and operate AI systems in the public sector.",
         quotes: [
           `"we are haemorrhaging the really talented people because they’re going off to the organisations like your Googles and your Amazons" (Interview 5)`,
-          `"once you [upskill officers]…,they’ll leave the public sector because they don’t pay enough" (Interview 9)`,
+          `"once you [upskill officers]…,they'll leave the public sector because they don't pay enough" (Interview 9)`,
         ],
       },
       {
@@ -814,7 +814,7 @@ const initialData = [
         code: "Time delay",
         desc: "This code captures the substantial time difference between implementing or testing AI in the private sector versus the public sector.",
         quotes: [
-          `"Something I would have probably done in the private sector with a couple of conversations maybe within a week I could get going here in the public service will take me three to six months" (Interview 6)`,
+          `"Something I would have probably done in the private sector with a couple of conversations maybe within a week I could get going here in the public service will take me three to six months before I can even start to try something" (Interview 6)`,
         ],
       },
       {
@@ -865,12 +865,12 @@ const initialData = [
     id: "t4",
     theme: "Chaining",
     themeDesc:
-      "This theme captures information about the interaction and interdependence of multiple AI systems.",
+      "This theme captures information about the interaction and interdependence of multiple AI systems, including how the outputs of one system can become the inputs of another, and the implications of these linked processes for accuracy, accountability, and governance.",
     codes: [
       {
         id: "c39",
         code: "System interdependencies",
-        desc: "Information about how different AI tools or systems are connected and influence one another.",
+        desc: "This code captures information about how different AI tools or systems are connected and how outputs from one system feed into or influence another, and the implications of these linked processes for policing workflows.",
         quotes: [
           `"I think [chaining is] very limited because a lot of these AI development is still fairly young and fairly embryonic" (Interview 5)`,
           `"I'm not aware of any [chaining of AI systems]...I think there's a lot of nervousness across forces about anything like that" (Interview 7)`,
@@ -887,10 +887,10 @@ const initialData = [
       {
         id: "c40",
         code: "Compounding errors",
-        desc: "Information about how inaccuracies or biases in one system may propagate through linked AI systems.",
+        desc: "This code captures information about how inaccuracies or biases in one AI system may propagate and amplify through linked AI systems, compounding errors throughout the processing chain.",
         quotes: [
-          `"If we don't illuminate [transcription accuracy concerns] and we just assume the transcription is accurate, then potentially everything else could become biased that follows." (Interview 20)`,
-          `"That would be like AI training AI and not having a bedrock of data sufficiently wide enough to train the first tool." (Interview 24)`,
+          `"If we don't illuminate [transcription accuracy concerns] and we just assume the transcription is accurate, then potentially everything else could become biased that follows. That's why we're really concentrated on making sure that [the AI post-call analysis tool's] transcription accuracy figures are well understood" (Interview 20)`,
+          `"That would be like AI training AI and not having a bedrock of data sufficiently wide enough to train the first tool. Is that not just kind of doubling your risk there?… If you use the output of AI to train another AI tool I'm imaging that would be in a slightly different but linked context but with similar issues to accuracy" (Interview 24)`,
         ],
       },
       {
@@ -1196,7 +1196,7 @@ const initialData = [
     id: "t7",
     theme: "Funding and innovation",
     themeDesc:
-      "This theme captures information about the financial resources, investment mechanisms, and innovation processes that enable the initiation, development, and scaling of AI projects.",
+      "This theme captures information about the financial resources, investment mechanisms, and innovation processes that enable the initiation, development, and scaling of AI projects, including government grants, internal budgets, police innovation funds, and the stages through which funded projects typically progress.",
     codes: [
       {
         id: "c61",
@@ -1215,7 +1215,7 @@ const initialData = [
       {
         id: "c62",
         code: "Innovation pipeline stages",
-        desc: "Projects typically move through an innovation pipeline, starting with exploratory phase, then progressing to blueprinting and requiring evaluation before national rollout.",
+        desc: "This code captures how AI projects typically move through an innovation pipeline, starting with an exploratory phase, then progressing to blueprinting and requiring evaluation before wider or national rollout.",
         quotes: [
           `"Most of them are within the exploratory phase…they then go for blueprinting and they need an evaluation" (Interview 8)`,
           `"We have an innovation map, so we know all of the different innovations that the forces are doing" (Interview 8)`,
